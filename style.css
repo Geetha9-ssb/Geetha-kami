@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Figtree';
+  src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('woff2'),
+       url('assets/fonts/Figtree-VariableFont_wght.ttf') format('woff');
+  /* You can add more src lines for different formats */
+ 
+}
+
+
+
+*{
+    padding:0;
+    margin: 0;
+
+}
+ 
+body {
+background-color: hsl(47, 88%, 63%);
+display: flex;
+align-items: center;
+ flex-direction: column;
+ margin: 130px;
+ flex-wrap: wrap;
+ font-family:'Figtree';
+}
+.box1{
+    background-color: white;
+    max-width: 300px;
+    padding: 15px;
+   display: flex;
+   justify-content: center;
+ flex-direction: column;
+ border-radius: 18px;
+ border: 1.5px solid hsl(0, 0%, 7%);
+ box-shadow: 13px 13px hsl(0, 0%, 7%);   
+}
+.Learning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height:30px; 
+    width: 80px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 9px;
+}
+.logo a{
+margin-top: 12px;
+}
+.attribution{
+  margin-top: 135px;
+  color: white;
+}
+.attribution a{
+  text-decoration: none;
+}
+
+.html:hover{
+  color:hsl(47, 88%, 63%);
+}
+
+.html {
+  cursor: pointer;
+
+}
